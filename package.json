@@ -1,6 +1,6 @@
 {
   "name": "akhil-custom-elements",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "My custom web components",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -9,10 +9,10 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/my-first-stencil-project/my-first-stencil-project.esm.js",
+  "unpkg": "dist/akhil-custom-elements/akhil-custom-elements.esm.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/Akhil2105/akhil-custom-elements.git"
   },
   "files": [
     "dist/",
@@ -37,8 +37,8 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil-component-starter/issues"
+    "url": "https://github.com/Akhil2105/akhil-custom-elements/issues"
   },
-  "homepage": "https://github.com/ionic-team/stencil-component-starter#readme",
+  "homepage": "https://akhil2105.github.io/",
   "author": "akhil"
 }
