@@ -5,20 +5,15 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
+import { MyComponentData } from "./components/my-component/modal";
+export { MyComponentData } from "./components/my-component/modal";
 export namespace Components {
     interface MyComponent {
+        "data": MyComponentData | string;
         /**
           * The first name
          */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
+        "name": string;
     }
 }
 declare global {
@@ -34,18 +29,11 @@ declare global {
 }
 declare namespace LocalJSX {
     interface MyComponent {
+        "data"?: MyComponentData | string;
         /**
           * The first name
          */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
+        "name"?: string;
     }
     interface IntrinsicElements {
         "my-component": MyComponent;

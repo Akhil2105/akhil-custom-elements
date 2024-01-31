@@ -1,7 +1,7 @@
 {
-  "name": "my-first-stencil-project",
-  "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "name": "akhil-custom-elements",
+  "version": "0.0.2",
+  "description": "My custom web components",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.js",
@@ -12,7 +12,7 @@
   "unpkg": "dist/my-first-stencil-project/my-first-stencil-project.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
   },
   "files": [
     "dist/",
@@ -35,5 +35,10 @@
     "jest-cli": "^29.7.0",
     "puppeteer": "21.1.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionic-team/stencil-component-starter/issues"
+  },
+  "homepage": "https://github.com/ionic-team/stencil-component-starter#readme",
+  "author": "akhil"
 }

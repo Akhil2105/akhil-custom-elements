@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#developer-story {
+  border-radius: 20px;
+  padding: 30px 30px 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px;
+
+  &.gradient-1 {
+    background: linear-gradient(45deg, #2980b9, #c0392b);
+  }
+
+  &.gradient-2 {
+    background: linear-gradient(45deg, #0d145a, #a51e0f);
+  }
+
+  &.gradient-3 {
+    background: linear-gradient(45deg, #3e841e, #9b9929);
+  }
+
+  &.gradient-4 {
+    background: linear-gradient(45deg, #8c267e, #4e228c);
+  }
+}
+
+img {
+  width: 400px;
+  height: 390px;
+}
+
+.container {
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 400px) {
+    display: block;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.btn-primary {
+  background-color: #1976D2;
+  height: 44px;
+  width: 120px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  color: #fff;
+}
